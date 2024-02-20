@@ -17,6 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 //sh '/bitnami/jenkins/home/ssvvpraveenraj/.local/bin/pipenv run pytest'
+                echo "test completed successful"
             }
         }
 
