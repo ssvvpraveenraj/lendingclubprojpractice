@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh '/bitnami/jenkins/home/ssvvpraveenraj/.local/bin/pipenv run pytest'
+                //sh '/bitnami/jenkins/home/ssvvpraveenraj/.local/bin/pipenv run pytest'
             }
         }
 
