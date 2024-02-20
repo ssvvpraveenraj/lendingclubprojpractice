@@ -18,6 +18,7 @@ pipeline {
             steps {
                 //sh '/bitnami/jenkins/home/ssvvpraveenraj/.local/bin/pipenv run pytest'
                 echo "test completed successful"
+                echo "test completed successful - commented line is actual code"
             }
         }
 
